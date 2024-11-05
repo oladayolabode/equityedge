@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+.btn-primary {
+    @apply px-4 py-2 w-40 bg-green-500 text-black rounded-full hover:bg-white border border-green-500;
+  }
+.btn-secondary {
+    @apply px-4 py-2 w-36 h-14 bg-white text-black rounded-full hover:bg-green-500 border border-green-500;
+  }
+  .btn-1{
+    @apply bg-green-500 h-14 w-56 text-lg font-bold rounded-full mr-5   
+  }
+  .btn-2{
+    @apply bg-white border border-black h-14 w-56 text-lg font-bold rounded-full
+  }
+  .app-container {
+    @apply flex flex-col items-center;
+  }         
+  li:hover{
+    color: #10B981;
+  }
