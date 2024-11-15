@@ -1,4 +1,8 @@
 import equity from "../assets/pictures/equity.png"
+import scaling from "../assets/pictures/scaling.png"
+import trading from "../assets/pictures/trading.png"
+import payout from "../assets/pictures/payout.png"
+import trade from "../assets/pictures/trade.png"
 import React, { useState } from 'react'
 export default function Discount () {
     const [inputValue, setInputValue] = useState('');
@@ -100,36 +104,36 @@ export default function Discount () {
                 </div>   
                 <button className="h-12 px-4 py-2 mt-24 font-bold text-black bg-green-500 rounded-full w-44">Get Funded</button>            
             </div>
-            <div className="mt-28 font-dmSans">
+            <div className="mt-28 font-dmSans justify-items-center">
                 <p className="text-3xl font-bold">Why Should You Join EquityEdge</p>
                 <div>
-                    <div>
-                        <div>
+                    <div className="flex">
+                        <div className="border border-green-400 w-[20rem] rounded-3xl pl-6 h-96">
                             <img src={scaling} alt="scaling"/>
-                            <p>Scaling Plan</p>
-                            <p>
+                            <p className="text-xl font-extrabold">Scaling Plan</p>
+                            <p className="text-[18px]">
                                 Climb the ladder with us! We boost account size, Maximum Loss and Maximum Daily Loss to a 14% Maximum Loss and a 7% Daily Loss limit. Upon reaching the VIP level at Equity Edge traders can trade up to $2,000,000.
                             </p>
                         </div>
-                        <div>
+                        <div className="border border-green-400 w-[20rem] rounded-3xl pl-6 h-96">
                             <img src={trading} alt="trading"/>
-                            <p>Trading Days</p>
-                            <p>
+                            <p className="text-xl font-extrabold">Trading Days</p>
+                            <p className="text-[18px]">
                                 No need to stress about time limits! We’ve got you covered with no minimum or maximum trading days. Take all the time you need – no pressure.
                             </p>
                         </div>
-                        <div>
+                        <div className="border border-green-400 w-[20rem] rounded-3xl pl-6 h-96">
                             <img src={payout} alt="payout"/>
-                            <p>Payout System</p>
-                            <p>
+                            <p className="text-xl font-extrabold">Payout System</p>
+                            <p className="text-[18px]">
                                 Receive your earnings every 14 days up to a 90% profit split. Enjoy the flexibility of payouts through Bank transfer and Crypto.
                             </p>
                         </div>
-                        <div>
+                        <div className="border border-green-400 w-[20rem] rounded-3xl pl-6 h-96">
                             <img src={trade} alt="trade"/>
-                            <p>Trade Your Way</p>
-                            <p>
-                            Utilize “EA”, hold positions during news, keep trades over the weekend, and trade with lot sizes as large as your leverage allows. Flexibility at your fingertips!
+                            <p className="text-xl font-extrabold">Trade Your Way</p>
+                            <p className="text-[18px]">
+                                Utilize “EA”, hold positions during news, keep trades over the weekend, and trade with lot sizes as large as your leverage allows. Flexibility at your fingertips!
                             </p>
                         </div>
                     </div>
