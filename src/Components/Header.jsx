@@ -2,7 +2,7 @@ import equityedge from '../assets/pictures/equityedge.png'
 export default function Header() {
     return (
         <div className="">
-            <header className="fixed bg-white top-0 left-0 h-28 pt-6 items-center justify-items-center w-full p-4 font-dmSans font-medium text-xl shadow-md">
+            <header className="fixed top-0 left-0 items-center w-full p-4 pt-6 text-xl font-medium bg-white shadow-md h-28 justify-items-center font-dmSans">
                 <nav className="flex items-center flex-1 space-x-10">
                     <img src={equityedge} alt="equityedge" className="w-44" />    
                     <ul className="flex space-x-8">
