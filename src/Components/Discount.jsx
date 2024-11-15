@@ -3,6 +3,9 @@ import scaling from "../assets/pictures/scaling.png"
 import trading from "../assets/pictures/trading.png"
 import payout from "../assets/pictures/payout.png"
 import trade from "../assets/pictures/trade.png"
+import mindset from "../assets/pictures/mindset.png"
+import limitless from "../assets/pictures/limitless.png"
+import rewarding from "../assets/pictures/rewarding.png"
 import React, { useState } from 'react'
 export default function Discount () {
     const [inputValue, setInputValue] = useState('');
@@ -102,42 +105,66 @@ export default function Discount () {
                         </p>
                     </div>
                 </div>   
-                <button className="h-12 px-4 py-2 mt-24 font-bold text-black bg-green-500 rounded-full w-44">Get Funded</button>            
+                <button className="h-12 px-4 py-2 mt-16 font-bold text-black bg-green-500 rounded-full w-44">Get Funded</button>            
             </div>
             <div className="mt-28 font-dmSans justify-items-center">
-                <p className="text-3xl font-bold">Why Should You Join EquityEdge</p>
-                <div>
+                <p className="text-3xl font-bold text-center">Why Should You Join EquityEdge</p>
+                <div className="mt-10">
                     <div className="flex">
-                        <div className="border border-green-400 w-[20rem] rounded-3xl pl-6 h-96">
-                            <img src={scaling} alt="scaling"/>
+                        <div className="border border-green-400 w-[21rem] rounded-3xl px-6 h-96 mr-8 hover:bg-green-300">
+                            <img src={scaling} alt="scaling" className="pt-2 rounded-full"/>
                             <p className="text-xl font-extrabold">Scaling Plan</p>
-                            <p className="text-[18px]">
+                            <p className="text-[18px] mt-3">
                                 Climb the ladder with us! We boost account size, Maximum Loss and Maximum Daily Loss to a 14% Maximum Loss and a 7% Daily Loss limit. Upon reaching the VIP level at Equity Edge traders can trade up to $2,000,000.
                             </p>
                         </div>
-                        <div className="border border-green-400 w-[20rem] rounded-3xl pl-6 h-96">
-                            <img src={trading} alt="trading"/>
+                        <div className="border border-green-400 w-[21rem] rounded-3xl px-6 h-96 mr-8 hover:bg-green-300">
+                            <img src={trading} alt="trading" className="pt-2 rounded-full"/>
                             <p className="text-xl font-extrabold">Trading Days</p>
-                            <p className="text-[18px]">
+                            <p className="text-[19px] mt-3">
                                 No need to stress about time limits! We’ve got you covered with no minimum or maximum trading days. Take all the time you need – no pressure.
                             </p>
                         </div>
-                        <div className="border border-green-400 w-[20rem] rounded-3xl pl-6 h-96">
-                            <img src={payout} alt="payout"/>
+                        <div className="border border-green-400 w-[21rem] rounded-3xl px-6 h-96 mr-8 hover:bg-green-300">
+                            <img src={payout} alt="payout" className="pt-2 rounded-full"/>
                             <p className="text-xl font-extrabold">Payout System</p>
-                            <p className="text-[18px]">
+                            <p className="text-[19px] mt-3">
                                 Receive your earnings every 14 days up to a 90% profit split. Enjoy the flexibility of payouts through Bank transfer and Crypto.
                             </p>
                         </div>
-                        <div className="border border-green-400 w-[20rem] rounded-3xl pl-6 h-96">
-                            <img src={trade} alt="trade"/>
+                        <div className="border border-green-400 w-[21rem] rounded-3xl px-6 h-96 hover:bg-green-300">
+                            <img src={trade} alt="trade" className="pt-2 rounded-full"/>
                             <p className="text-xl font-extrabold">Trade Your Way</p>
-                            <p className="text-[18px]">
+                            <p className="text-[19px] mt-3">
                                 Utilize “EA”, hold positions during news, keep trades over the weekend, and trade with lot sizes as large as your leverage allows. Flexibility at your fingertips!
                             </p>
                         </div>
                     </div>
+                    <div className="flex justify-center mt-12">
+                        <div className="border border-green-400 w-[21rem] rounded-3xl px-6 h-96 mr-8 hover:bg-green-300">
+                            <img src={mindset} alt="mindset" className="pt-2 rounded-full"/>
+                            <p className="text-xl font-extrabold">Mindset Management</p>
+                            <p className="text-[19px] mt-3">
+                                Your mental health is important to us. Our mindset team is here for personalised, one-to-one support in order to assist you with your well-being and helping to improve your trading mindset.
+                            </p>
+                        </div>
+                        <div className="border border-green-400 w-[21rem] rounded-3xl px-6 h-96 mr-8 hover:bg-green-300">
+                            <img src={limitless} alt="limitless" className="pt-2 rounded-full"/>
+                            <p className="text-xl font-extrabold">Limitless Potential</p>
+                            <p className="text-[19px] mt-3">
+                                Diverse opportunities with our 1-step and 2-step evaluation challenges, offering multiple paths for traders to showcase their skills and excel in a competitive environment.                                
+                            </p>                        
+                        </div>
+                        <div className="border border-green-400 w-[21rem] rounded-3xl px-6 h-96 hover:bg-green-300">
+                            <img src={rewarding} alt="rewarding" className="pt-2 rounded-full"/>
+                            <p className="text-xl font-extrabold">Rewarding Monthly Competitions</p>
+                            <p className="text-[19px] mt-3">
+                                Join our monthly free trading competitions for a shot at winning complimentary evaluation accounts!
+                            </p>
+                        </div>
+                    </div>
                 </div>
+                <button className="h-12 px-4 py-2 mt-16 font-bold text-black bg-green-500 rounded-full w-44">Get Funded</button> 
             </div>
         </div> 
     )
