@@ -100,6 +100,41 @@ export default function Discount () {
                 </div>   
                 <button className="h-12 px-4 py-2 mt-24 font-bold text-black bg-green-500 rounded-full w-44">Get Funded</button>            
             </div>
+            <div className="mt-28 font-dmSans">
+                <p className="text-3xl font-bold">Why Should You Join EquityEdge</p>
+                <div>
+                    <div>
+                        <div>
+                            <img src={scaling} alt="scaling"/>
+                            <p>Scaling Plan</p>
+                            <p>
+                                Climb the ladder with us! We boost account size, Maximum Loss and Maximum Daily Loss to a 14% Maximum Loss and a 7% Daily Loss limit. Upon reaching the VIP level at Equity Edge traders can trade up to $2,000,000.
+                            </p>
+                        </div>
+                        <div>
+                            <img src={trading} alt="trading"/>
+                            <p>Trading Days</p>
+                            <p>
+                                No need to stress about time limits! We’ve got you covered with no minimum or maximum trading days. Take all the time you need – no pressure.
+                            </p>
+                        </div>
+                        <div>
+                            <img src={payout} alt="payout"/>
+                            <p>Payout System</p>
+                            <p>
+                                Receive your earnings every 14 days up to a 90% profit split. Enjoy the flexibility of payouts through Bank transfer and Crypto.
+                            </p>
+                        </div>
+                        <div>
+                            <img src={trade} alt="trade"/>
+                            <p>Trade Your Way</p>
+                            <p>
+                            Utilize “EA”, hold positions during news, keep trades over the weekend, and trade with lot sizes as large as your leverage allows. Flexibility at your fingertips!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div> 
     )
 }
